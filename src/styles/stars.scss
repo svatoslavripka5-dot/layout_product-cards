@@ -1,0 +1,40 @@
+.stars {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+
+  &::before {
+    content: '';
+    width: 80px;
+    height: 16px;
+    background-image: url('../images/star.svg');
+    background-repeat: repeat-x;
+    background-size: 20px 16px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 16px;
+    background-image: url('../images/star-active.svg');
+    background-repeat: repeat-x;
+    background-size: 20px 16px;
+  }
+
+  &--1::after { width: 20px; }
+  &--2::after { width: 40px; }
+  &--3::after { width: 60px; }
+  &--4::after { width: 80px; }
+  &--5::after { width: 100px; }
+
+
+
+  &__reviews {
+    margin-left: 50px;
+    font-size: 10px;
+    color: #060b35;
+  }
+}
