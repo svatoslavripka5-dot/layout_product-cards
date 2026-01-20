@@ -1,7 +1,6 @@
 .stars {
   position: relative;
-  display: flex;
-  align-items: center;
+  @include flex-center;
   margin-bottom: 16px;
 
   &::before {
