@@ -28,13 +28,11 @@
   &--2::after { width: 40px; }
   &--3::after { width: 60px; }
   &--4::after { width: 80px; }
-  &--5::after { width: 100px; }
-
-
+  &--5::after { width: $card-width; }
 
   &__reviews {
-    margin-left: 50px;
+    margin-left: 40px;
     font-size: 10px;
-    color: #060b35;
+    color: $color-text-main;
   }
 }

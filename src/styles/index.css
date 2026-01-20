@@ -1,7 +1,13 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 .card {
@@ -103,12 +109,12 @@ body {
   width: 80px;
 }
 .stars--5::after {
-  width: 100px;
+  width: 200px;
 }
 .stars__reviews {
-  margin-left: 50px;
+  margin-left: 40px;
   font-size: 10px;
-  color: #060b35;
+  color: #060B35;
 }
 
 /*# sourceMappingURL=index.css.map */
